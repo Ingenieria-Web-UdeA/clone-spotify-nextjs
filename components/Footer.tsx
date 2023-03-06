@@ -1,10 +1,11 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
   return (
     <footer>
       <div>
-        <a href='/daniel'>Ir a Daniel</a>
+        <Link href='/daniel'>Ir a Daniel</Link>
         <span>Companies</span>
         <span>Communities</span>
         <span>Useful links</span>

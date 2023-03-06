@@ -3,7 +3,7 @@ const Navbar = () => {
     <nav>
       <div className='navigation-icon-container'>
         <img src='/media/icons/go-back.png' />
-        <button onclick='clickBoton()'>
+        <button>
           <img src='/media/icons/go-forward.png' />
         </button>
       </div>
